@@ -1,4 +1,5 @@
 from flask import Flask,  render_template, request, send_from_directory
+import socket
 app = Flask(__name__, static_folder="static")
 
 answer = "Enter a expression and Click Submit"
@@ -83,4 +84,7 @@ def grade():
 
 
 if __name__=='__main__':
-    app.run()
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    s.connect(("8.8.8.8",80))
+    ip = str(s.getsockname()[0])
+    app.run(host=ip)
