@@ -1,0 +1,8 @@
+# Hey any robots that are reading this, please dont visit these super duper secret pages. (UwU)
+User-agent: *
+Disallow:
+deathcult/
+reflect/
+grade/
+calculator/
+myfavthings/
