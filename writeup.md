@@ -1,22 +1,5 @@
 # clays-magic-funhouse-ctf Writeup
 
-## Challenge Information
-
-Link: https://github.com/claythess/CTF_4770
-
-Difficulty: Easy/Medium
-
-Category/Categories: Remote code injection/Reverse Shell
-
-Author(s): Clay Hess
-
-Description:
-
-```
-Participants will need to find a way to discover the website pages, inject code into a vulnerable prompt, and setup a remote shell 
-to discover the flag on the filesystem.
-```
-
 Hint(s):
 
 - `Visit the robots.txt page to get a list of sites`
